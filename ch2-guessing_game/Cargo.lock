@@ -21,6 +21,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
+name = "ch2-guessing_game"
+version = "0.1.0"
+dependencies = [
+ "rand",
+]
+
+[[package]]
 name = "getrandom"
 version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -30,13 +37,6 @@ dependencies = [
  "libc",
  "wasi",
  "windows-targets",
-]
-
-[[package]]
-name = "guessing_game"
-version = "0.1.0"
-dependencies = [
- "rand",
 ]
 
 [[package]]
