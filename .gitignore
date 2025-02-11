@@ -1,3 +1,6 @@
+hello_world/target/
+hello_cargo/target/
+guessing_game/target/
 chapter1/hello_cargo/target/
 ch2-guessing_game/target/
 ch3-variables/target/
